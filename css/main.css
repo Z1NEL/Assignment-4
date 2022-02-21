@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Suez+One&display=swap');
+
+.top-buffer {
+	margin-top: 20px;
+}
+
+body {
+  background-color: #0dcaf0;
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 16px;
+  color: #555;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  background-image: url(https://fitness-national.com/assets/images/13-04-2021/24131654-728250697378581-821734354207160088-o.jpg);
+  background-blend-mode: multiply;
+  background-color: #dfcdcd;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.textt h1 {
+	text-align: center;
+	margin-top: 40px;
+	color: black;
+	font-family: 'Roboto Slab', serif;
+	font-weight: lighter;
+}
+
+.sl {
+	vertical-align: middle;
+	background-size: cover;
+	margin-top: 500px;
+	width: 100%;
+	background-size: cover;
+}
+
+.reg {
+	text-align: center;
+	margin-top: 60px;
+}
+
+#bott {
+	float: left;
+	background-blend-mode: multiply;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 100px 0;
+	width: 100%;
+	text-align: center;
+	background-color: #fafafa;
+	opacity: 0.5;
+	background-size: 100%;
+	background-blend-mode: multiply;
+	font-color: #000000;
+	font-family: SuezOne;
+}
+
+#bott span {
+	float: left;
+	width: 100%;
+	font-size: 2.5em;
+	margin-top: 10px;
+}
+
+#bott h2 {
+	font-size: 4em;
+	font-family: 'Roboto Slab', serif;
+	font-weight: lighter;
+}
+
+.reg h1 {
+	font-size: 4em;
+	font-family: 'Roboto Slab', serif;
+	font-weight: lighter;
+	color: white;
+}
+
+.sshp .card {
+	line-height: 5px;
+
+}
+
+.mb-3 {
+	color: white;
+}
+
+.submit {
+	color: white;
+}
+
+#f .container {
+  background: #2d2d2d;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  background-size: 100%;
+}
+
+#f i {
+  color: #bdbdbd;
+  font-size: 30px;
+  padding: 10px;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+#f i:hover {
+  color: #ff7878;
+}
+
+.row {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.row img {
+	width: 100%;
+}
+
+.sponge .container {
+  text-align: center;
+  padding: 40px 40px;
+}
+
+.row .col img {
+	padding: 40px 40px;
+	width: 380px;
+	height: 280px;
+}
+
+.row .col .text {
+	color: green;
+	font-size: 2em;
+
+}
+
+.row .umnoe .col {
+	padding: 40px 40px;
+	width: 300px;
+	height: 150px;
+	position: absolute;
+	top: 75%;
+	left: 20%;
+	transform: translate(-75%, -20%);
+	-ms-transform: translate(-75%, -20%);
+}
+
+.row .umnoe1 .col {
+	padding: 0px 440px;
+	width: 300px;
+	height: 150px;
+	position: absolute;
+	top: 100%;
+	left: 95%;
+	transform: translate(-100%, -95%);
+	-ms-transform: translate(-100%, -95%);
+}
+
+#slides .slide{
+	font-size: 2em;
+}
+#slides{
+  position: absolute;
+  height: 75%;
+  width: 100%;
+  list-style-type: none;
+}
+
+.slide{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 1;
+
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+.showing{
+  opacity: 1;
+  z-index: 2;
+}
+.slide{
+  font-size: 40px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: #333;
+  color: black;
+}
+
+.slide:nth-of-type(1){
+  background-image: url(https://cs8.pikabu.ru/post_img/2017/02/17/5/1487313192128680862.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide:nth-of-type(2){
+  background-image: url(https://steel-spots.ru/wp-content/uploads/2016/01/Sgibaniya-nog-lezha-i-stoya.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide:nth-of-type(3){
+  background-image: url(https://ss.sport-express.ru/userfiles/materials/172/1723562/large.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide:nth-of-type(4){
+  background-image: url(https://hombresconestilo.com/wp-content/uploads/2020/12/aperturas-con-mancuernas.jpg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide:nth-of-type(5){
+  background-image: url(https://autogear.ru/misc/i/gallery/31654/3170886.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gg{
+  width: 100px;
+  height: 100px;
+  color: white;
+}
+
+
+
+
